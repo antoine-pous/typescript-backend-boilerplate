@@ -39,5 +39,9 @@
     "fastify": "^3.29.0",
     "fastify-plugin": "^3.0.1",
     "only-allow": "^1.1.0"
+  },
+  "validate-branch-name": {
+    "pattern": "^(feat|fix|chore)\/([\\d+])-([\\w-]+)$",
+    "errorMsg": "Allowed branch name format: <feat|fix|chore>/<issueID>-my-branch-name"
   }
 }
