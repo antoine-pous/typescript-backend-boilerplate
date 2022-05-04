@@ -29,7 +29,8 @@
     "jest": "^28.0.3",
     "ts-jest": "^28.0.1",
     "ts-node-dev": "^1.1.8",
-    "typescript": "^4.6.4"
+    "typescript": "^4.6.4",
+    "validate-branch-name": "^1.3.0"
   },
   "dependencies": {
     "@fastify/autoload": "^4.0.1",
@@ -41,7 +42,7 @@
     "only-allow": "^1.1.0"
   },
   "validate-branch-name": {
-    "pattern": "^(feat|fix|chore)\/([\\d+])-([\\w-]+)$",
+    "pattern": "^(feat|fix|chore)/([\\d+])-([\\w-]+)$",
     "errorMsg": "Allowed branch name format: <feat|fix|chore>/<issueID>-my-branch-name"
   }
 }
