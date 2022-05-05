@@ -10,6 +10,7 @@
     "yarn": "1.22"
   },
   "scripts": {
+    "build": "tsc",
     "eslint": "eslint src --ext .ts",
     "prepare": "husky install",
     "preinstall": "npx only-allow yarn",

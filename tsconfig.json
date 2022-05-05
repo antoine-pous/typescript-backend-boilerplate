@@ -116,6 +116,7 @@
     /* Skip type checking all .d.ts files. */
   },
   "exclude": [
-    "**/*.spec.ts"
+    "**/*.spec.ts",
+    "src/testApp.ts"
   ]
 }
